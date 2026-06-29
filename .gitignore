@@ -1,0 +1,10 @@
+# Secrets
+.anthropic_key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local-only (kept on disk, not published)
+IDEAS.md

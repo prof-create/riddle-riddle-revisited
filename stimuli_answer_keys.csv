@@ -1,0 +1,61 @@
+riddle_id,version,riddle_text,answer_canonical,canonical_strategy,answer_alternatives,alternative_strategies,is_open_ended
+1A,A,"A cowboy rode into town on Sunday, he stayed one night and rode out on Sunday. How is this possible?",Horse's name is Sunday,inventive,"Rode in at midnight Sunday, stayed the night, and left Sunday morning",literal,False
+1B,B,"A cowboy rode into town on Sunday, he stayed one night and rode out on Monday. How is this possible?",Sunday + one more night = Monday,literal,Horse's name is Sunday and rode out on the day Monday,inventive,False
+2A,A,"You see a boat filled with people, yet there isn't a single person on board. How is that possible?",All the people are married,inventive,,,False
+2B,B,"You see a boat filled with people, and there's more than a single person on board. How is that possible?",Because it's filled with people,literal,There are also married people,inventive,False
+3A,A,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","They are grandfather, father, and son",inventive,,,False
+3B,B,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?",Two fathers + two sons = 4 people,literal,,,False
+4A,A,A black dog stands in the middle of an intersection in a town painted black. None of the street lights are working due to a power failure caused by a storm. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,Because it was day time,inventive,,,False
+4B,B,A black dog stands in the middle of an intersection in a town painted black at night. All of the street lights are working. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,Because the street lights are working,literal,,,False
+5A,A,"Three girls share one umbrella on the way to school, but none of them get wet. How is it possible?",It's not raining,inventive,It's a big umbrella,literal,False
+5B,B,"Three girls share three umbrellas on a rainy walk to school, and no girls got wet. How is it possible?",They each have an umbrella,literal,,,False
+6A,A,"Which of the following is the largest? Circle, square, or triangle?",Triangle. It has the most letters,inventive,,,False
+6B,B,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?",Large rectangle,literal,,,False
+7A,A,"If the end of the year is December 31st, what is the end of Christmas?",S,inventive,,,False
+7B,B,"If the end of the year is December 31st, when is the end of Christmas?",December 25,literal,,,False
+8A,A,How many bananas can you eat if your stomach is empty?,"One, after one your stomach will not be empty anymore",literal,,,False
+8B,B,How many bananas can you eat if your stomach is completely full?,"Zero, because you are full",literal,,,False
+9A,A,There are 10 peaches and 7 peaches are taken away. You now have 7 peaches. How is that possible?,You keep the 'taken away' peaches,inventive,You had 7 other peaches to start with,inventive,False
+9B,B,You have 10 peaches and 3 peaches are taken away. You now have 7 peaches. How is that possible?,You kept the 7 leftover peaches,literal,,,False
+10A,A,"A horse was tied to a rope 5 meters long, and the horse's food was 15 meters away from the horse. How did the horse reach the food?",The rope was not tied to anything,inventive,,,False
+10B,B,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?",3 < 5,literal,,,False
+11A,A,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?",The kid held container of water above his head,inventive,,,False
+11B,B,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?",Because the kid is capable of holding breath underwater for 1 minute. 1 < 6,literal,,,False
+12A,A,A guy bet his neighbor 50 bucks that his dog could jump higher than a house. The neighbor took the bet and lost. How is that possible?,The house can't jump,inventive,The house is a toy house,inventive,False
+12B,B,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,Because the fence is not high and the dog could jump higher than it,literal,,,False
+13A,A,"Feed me I live, give me water I die. What am I?",Fire,inventive,,,False
+13B,B,"Feed me I live, give me water I thrive. What am I?",A plant/any living thing,literal,,,True
+14A,A,Has keys but can't open locks. What am I?,Piano/keyboard,inventive,,,False
+14B,B,Has keys and can open locks. What am I?,Locksmith/anyone who has keys,literal,Keychain,literal,False
+15A,A,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?",She's sitting on it,inventive,Decorative or a paperweight,inventive,False
+15B,B,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?",She's reading it,literal,She's using it correctly,literal,False
+16A,A,What do you call a fly without wings?,A walk,inventive,Zipper,inventive,False
+16B,B,What do you call a fly with wings?,A fly,literal,,,False
+17A,A,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,Because you are the number 0,literal,,,False
+17B,B,I'm a number. Add me to myself and divide by 2. You will have me once more. How is that possible?,Any number. Because 2 x number / 2 = number,literal,,,True
+18A,A,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?",Stapler,inventive,,,False
+18B,B,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?",Venomous snake,literal,Venomous spider,literal,False
+19A,A,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",Echo,inventive,,,False
+19B,B,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?",A person,literal,,,False
+20A,A,"Railroad Crossing, look out for the cars. Can you spell that without any R's?",That,inventive,No,literal,False
+20B,B,"Railroad Crossing, look out for the cars. Can you spell that without any T's?","No — the word ""that"" contains a T, so it cannot be spelled without any T's",literal,,,False
+21A,A,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be beheaded. What can he say to save himself?",He'll be hanged,inventive,Say nothing,inventive,False
+21B,B,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?",Tell the truth,literal,He'll be hanged,inventive,False
+22A,A,"It can be driven, but has no wheels, and can also be sliced and remain whole. What is it?",A golf ball,inventive,,,False
+22B,B,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","infinite: car, truck, etc.",literal,,,True
+23A,A,What is full of holes and can still hold water?,Sponge or membrane,literal,,,False
+23B,B,What is not full of holes and can still hold water?,"infinite: bucket, cup, etc.",literal,,,True
+24A,A,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?",A doll,literal,A corpse,literal,False
+24B,B,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?",any woman,literal,,,True
+25A,A,"I act like a cat, I look like a cat, yet I am not a cat. What am I?",A kitten,literal,,,False
+25B,B,"I act like a cat, I look like a cat, and I am called a cat. What am I?",A cat,literal,,,False
+26A,A,"I have branches, but no fruit, trunk, or leaves. What am I?","bank, river, library, company, family tree",inventive,Veins,inventive,False
+26B,B,"I have branches, fruit, a trunk, and leaves. What am I?",A tree / plant,literal,,,False
+27A,A,It belongs to you but everyone else uses it. What is it?,Your name,inventive,Your body/face/heart,inventive,False
+27B,B,It belongs to you but no one else uses it. What is it?,could be a lot of things. I'm immediately thinking 'toothbrush',literal,Voice,inventive,True
+28A,A,"I have cities, but no houses; forests, but no trees; and water, but no fish. What am I?",A map,inventive,,,False
+28B,B,"I have cities, houses, forests, trees, water, and fish. What am I?",Earth/can't be Catan,literal,The U.S./any country,literal,False
+29A,A,"You're trapped in a room with three doors. The first leads to a room on fire, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three years. Which door is safest?",door three,inventive,,,False
+29B,B,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?",Door one,literal,,,False
+30A,A,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,The person who took the last egg also took the basket,inventive,Someone put it back,inventive,False
+30B,B,There are six eggs in a basket. Five people each take one egg. How is it possible that one egg is still in the basket?,There were six eggs and only five were taken,literal,,,False

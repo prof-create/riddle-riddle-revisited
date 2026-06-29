@@ -1,0 +1,889 @@
+model,framing,thinking_mode,effort,session_id,position,pair,version,riddle_id,repetition,riddle_text,model_answer,thinking_used,input_tokens,output_tokens,error
+claude-opus-4-6,sequential,adaptive,high,s0_000,1,7,A,7A,s0_000,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""S"".**
+
+The riddle plays on the word ""end"" literally — the last letter of the word ""Christmas"" is the letter **S**.",1,63,94,
+claude-opus-4-6,sequential,adaptive,high,s0_000,2,4,A,4A,s0_000,A black dog stands in the middle of an intersection in a town painted black. None of the street lights are working due to a power failure caused by a storm. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,"**It was daytime.**
+
+The riddle deliberately implies darkness with details like broken streetlights and broken headlights, but it never actually states it was nighttime — so the driver could simply see the dog in broad daylight.",1,169,115,
+claude-opus-4-6,sequential,adaptive,high,s0_000,3,20,A,20A,s0_000,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T.**
+
+The riddle tricks you into trying to spell ""railroad crossing"" without the letter R, but it's actually asking you to spell the word **""that""** — which contains no R's at all.",1,243,137,
+claude-opus-4-6,sequential,adaptive,high,s0_000,4,17,B,17B,s0_000,I'm a number. Add me to myself and divide by 2. You will have me once more. How is that possible?,"**Any number at all.**
+
+This works for every number because adding any number to itself doubles it, and dividing by 2 brings it right back to the original — for example, 5 + 5 = 10 ÷ 2 = 5 — so the riddle's trick is making you think only a special number could do this.",1,328,225,
+claude-opus-4-6,sequential,adaptive,high,s0_000,5,21,B,21B,s0_000,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","**""I will be hanged.""**
+
+This creates a paradox — if they hang him, then he told the truth and should have been freed; if they free him, then he lied and should be hanged — so the only way to avoid contradicting their own rules is to set him free.",1,444,191,
+claude-opus-4-6,sequential,adaptive,high,s0_000,6,10,B,10B,s0_000,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked to the food.**
+
+The riddle tricks you into thinking the rope is a constraint, but since the rope is 5 meters long and the food is only 3 meters away, the horse has more than enough rope to reach it easily.",1,554,423,
+claude-opus-4-6,sequential,adaptive,high,s0_001,1,18,B,18B,s0_001,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+The riddle uses imagery of fangs, biting, and venom to misdirect you toward a snake or spider, but each clue cleverly describes a stapler — it sits on a desk waiting, has pointed metal ""fangs"" (staples), pierces and crunches through paper with force, and ""injects"" its staple in a single bite.",1,88,251,
+claude-opus-4-6,sequential,adaptive,high,s0_001,2,13,B,13B,s0_001,"Feed me I live, give me water I thrive. What am I?","**A plant.**
+
+A plant survives when fed (with nutrients or sunlight) and thrives when given water, as both are essential to its growth and health.",1,195,196,
+claude-opus-4-6,sequential,adaptive,high,s0_001,3,24,B,24B,s0_001,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?","**A doll.**
+
+A doll has hands (but can't hold anything), teeth (but can't bite), feet (but they don't get cold since she's not alive), and eyes (but cannot actually see) — all features that mimic a human's appearance without any of the actual functions.",1,271,355,
+claude-opus-4-6,sequential,adaptive,high,s0_001,4,15,A,15A,s0_001,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","**She is sitting on it.**
+
+The girl is using the book as a booster seat to sit higher, which doesn't require reading, holding, or opening it — a common practical use of a book beyond its intended purpose.",1,372,119,
+claude-opus-4-6,sequential,adaptive,high,s0_001,5,2,A,2A,s0_001,"You see a boat filled with people, yet there isn't a single person on board. How is that possible?","**All the people on board are married.**
+
+The riddle plays on the double meaning of the word ""single"" — it doesn't mean there are no people on the boat, but rather that every person aboard is married, so there isn't a *single* (unmarried) person on board.",1,448,118,
+claude-opus-4-6,sequential,adaptive,high,s0_001,6,26,A,26A,s0_001,"I have branches, but no fruit, trunk, or leaves. What am I?","**A bank.**
+
+A bank has multiple ""branches"" (locations where it operates), but unlike a tree, it has no fruit, trunk, or leaves — the riddle plays on the double meaning of the word ""branches.""",1,533,88,
+claude-opus-4-6,sequential,adaptive,high,s0_002,1,19,B,19B,s0_002,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A bell.**
+
+A bell has a ""mouth"" (its open end), ""ears"" (the loops at the top by which it is hung), a ""body"" (its main structure), and it responds to the wind (as wind can cause it to ring).",1,69,182,
+claude-opus-4-6,sequential,adaptive,high,s0_002,2,30,A,30A,s0_002,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+The last person took their egg while it was still inside the basket, so technically one egg remains ""in the basket.""",1,159,76,
+claude-opus-4-6,sequential,adaptive,high,s0_002,3,12,A,12A,s0_002,A guy bet his neighbor 50 bucks that his dog could jump higher than a house. The neighbor took the bet and lost. How is that possible?,"**Houses can't jump.**
+
+Since a house cannot jump at all, even the smallest jump by the dog is higher than a house's jump, making the bet an easy win.",1,237,71,
+claude-opus-4-6,sequential,adaptive,high,s0_002,4,18,A,18A,s0_002,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?","**A stapler.**
+
+It has pointed ""fangs"" (the staple), it ""crunches"" down with force, it grabs papers (victims) together, and it physically joins them with a single bite (a single staple press).",1,322,76,
+claude-opus-4-6,sequential,adaptive,high,s0_002,5,29,B,29B,s0_002,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation, making it completely harmless.",1,431,65,
+claude-opus-4-6,sequential,adaptive,high,s0_002,6,11,B,11B,s0_002,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head and held his breath for 1 minute.**
+
+He was technically ""under water"" (beneath a container of water) while holding his breath, fulfilling the exact claim he made without needing to submerge himself.",1,559,654,
+claude-opus-4-6,sequential,adaptive,high,s0_003,1,27,A,27A,s0_003,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It belongs to you, yet other people are the ones who say and use it to refer to you far more than you use it yourself.",1,58,93,
+claude-opus-4-6,sequential,adaptive,high,s0_003,2,23,B,23B,s0_003,What is not full of holes and can still hold water?,"**A sponge.**
+
+This is likely the classic riddle ""What is **full** of holes but still holds water?"" — and the answer is a sponge, since despite being riddled with holes, it absorbs and holds water within its structure.",1,109,320,
+claude-opus-4-6,sequential,adaptive,high,s0_003,3,19,A,19A,s0_003,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by reproducing sound without a mouth, ""hears"" by responding to sound without ears, has no physical body, and comes alive as sound travels through the air (wind).",1,196,147,
+claude-opus-4-6,sequential,adaptive,high,s0_003,4,28,A,28A,s0_003,"I have cities, but no houses; forests, but no trees; and water, but no fish. What am I?","**A map.**
+
+A map displays cities, forests, and bodies of water, but since it's just a representation, it contains none of the actual houses, trees, or fish found in those real places.",1,273,65,
+claude-opus-4-6,sequential,adaptive,high,s0_003,5,25,B,25B,s0_003,"I act like a cat, I look like a cat, and I am called a cat. What am I?","**A kitten.**
+
+A kitten acts like a cat, looks like a cat, and is often called a cat, but it's technically not an adult cat — it's a kitten, making the riddle's trick that the simplest-sounding answer isn't quite the intended one.",1,345,283,
+claude-opus-4-6,sequential,adaptive,high,s0_003,6,15,B,15B,s0_003,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She is reading it.**
+
+The answer is already stated in the riddle itself — the trick is to make you overthink it, when the question plainly tells you she is reading the book.",1,439,219,
+claude-opus-4-6,sequential,adaptive,high,s0_004,1,6,A,6A,s0_004,"Which of the following is the largest? Circle, square, or triangle?","**Triangle**
+
+Since no dimensions are given for the shapes, the question is referring to the words themselves, and ""triangle"" is the largest because it has the most letters (8, compared to 6 each for ""circle"" and ""square"").",1,59,196,
+claude-opus-4-6,sequential,adaptive,high,s0_004,2,3,B,3B,s0_004,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only 3 people: a grandfather, his son, and his grandson.**
+
+The grandfather and his son are the ""two fathers,"" while his son and grandson are the ""two sons"" — the middle person (the son/father) fills both roles, so 4 fish is more than enough for one each.",1,165,1031,
+claude-opus-4-6,sequential,adaptive,high,s0_004,3,30,A,30A,s0_004,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the egg while it was still in the basket.**
+
+The last person took the entire basket with the egg still inside it, so they technically took one egg but the egg remained in the basket.",1,268,81,
+claude-opus-4-6,sequential,adaptive,high,s0_004,4,20,B,20B,s0_004,"Railroad Crossing, look out for the cars. Can you spell that without any T's?","**T-H-A-T**
+
+The riddle is a trick of misdirection — it makes you think you need to spell ""Railroad Crossing, look out for the cars"" without the letter T, but it's actually just asking you to spell the word ""that,"" which is simply **T-H-A-T**.",1,337,442,
+claude-opus-4-6,sequential,adaptive,high,s0_004,5,11,A,11A,s0_004,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+The trick is in the wording — the kid was technically ""under water"" by holding a container of water above his head, rather than being submerged in water, so he didn't need to hold his breath at all.",1,502,100,
+claude-opus-4-6,sequential,adaptive,high,s0_004,6,29,B,29B,s0_004,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door — the lion.**
+
+A lion that hasn't eaten in three days would be dead from starvation, making it completely harmless and the safest choice.",1,623,347,
+claude-opus-4-6,sequential,adaptive,high,s0_005,1,30,A,30A,s0_005,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the egg while it was still in the basket.**
+
+The classic answer is that the last person took the basket itself with the egg still inside it, so one egg remains ""in the basket"" even though all six eggs were taken.",1,72,84,
+claude-opus-4-6,sequential,adaptive,high,s0_005,2,11,B,11B,s0_005,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head and held his breath for 1 minute.**
+
+By standing with a cup of water above his head, the kid was technically ""under water"" (beneath water), making it easy to hold his breath for just one minute without any special equipment.",1,223,555,
+claude-opus-4-6,sequential,adaptive,high,s0_005,3,3,A,3A,s0_005,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, a father, and a son.**
+
+The father is both a son (to the grandfather) and a father (to his own child), so ""two fathers and two sons"" actually describes just three people, meaning one fish each works out perfectly.",1,338,126,
+claude-opus-4-6,sequential,adaptive,high,s0_005,4,15,B,15B,s0_005,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She's simply reading it — using it as a book is meant to be used.**
+
+The riddle is designed to make you overthink and search for a trick, but the answer is straightforward: she's just reading the book normally, exactly as described in the question.",1,430,468,
+claude-opus-4-6,sequential,adaptive,high,s0_005,5,26,B,26B,s0_005,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+All four characteristics — branches, fruit, a trunk, and leaves — are the defining features of a fruit-bearing tree, making this a straightforward riddle with no trick involved.",1,509,104,
+claude-opus-4-6,sequential,adaptive,high,s0_005,6,19,A,19A,s0_005,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sounds without a mouth, ""hears"" by receiving sound waves without ears, has no physical body, and comes alive as sound carries through the air (wind).",1,583,106,
+claude-opus-4-6,sequential,adaptive,high,s0_006,1,9,A,9A,s0_006,There are 10 peaches and 7 peaches are taken away. You now have 7 peaches. How is that possible?,"**You are the one who took the 7 peaches.**
+
+The problem says ""7 peaches are taken away"" and ""you now have 7 peaches"" — this makes sense because *you* were the one who took them, so you now possess those 7 peaches.",1,75,124,
+claude-opus-4-6,sequential,adaptive,high,s0_006,2,11,A,11A,s0_006,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+He was technically ""under water"" without actually being submerged, so he didn't need to hold his breath at all.",1,233,87,
+claude-opus-4-6,sequential,adaptive,high,s0_006,3,24,B,24B,s0_006,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?","**A doll.**
+
+A doll has hands that can't hold, teeth that can't bite, feet that aren't cold (since they're not real), and eyes that can't actually see — all features that mimic a human's appearance without any of the function.",1,318,319,
+claude-opus-4-6,sequential,adaptive,high,s0_006,4,12,B,12B,s0_006,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than *the fence could jump*, and since a fence can't jump at all, even the smallest jump by the dog would win the bet.",1,419,101,
+claude-opus-4-6,sequential,adaptive,high,s0_006,5,23,B,23B,s0_006,What is not full of holes and can still hold water?,"**A sponge.**
+
+This is likely the classic riddle ""What is full of holes but can still hold water?"" — a sponge is riddled with holes throughout its structure, yet it absorbs and holds water due to its porous material.",1,484,261,
+claude-opus-4-6,sequential,adaptive,high,s0_006,6,19,A,19A,s0_006,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sounds without a mouth, ""hears"" by responding to sound without ears, has no physical body, and comes alive as sound carries through the air (wind).",1,570,146,
+claude-opus-4-6,sequential,adaptive,high,s0_007,1,9,B,9B,s0_007,You have 10 peaches and 3 peaches are taken away. You now have 7 peaches. How is that possible?,"**It's perfectly possible because 10 − 3 = 7.**
+
+The question is designed to make you overthink it, but there's no trick — it's simply correct arithmetic.",1,75,206,
+claude-opus-4-6,sequential,adaptive,high,s0_007,2,25,A,25A,s0_007,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.**
+
+A kitten acts and looks like a cat, but it is specifically called a kitten, not a cat.",1,145,82,
+claude-opus-4-6,sequential,adaptive,high,s0_007,3,19,A,19A,s0_007,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by reproducing sound without a mouth, ""hears"" by responding to sound without ears, has no physical body, and comes alive as sound travels through the air (wind).",1,206,145,
+claude-opus-4-6,sequential,adaptive,high,s0_007,4,6,A,6A,s0_007,"Which of the following is the largest? Circle, square, or triangle?","**Triangle.**
+
+Since no dimensions are given, the answer refers to the words themselves — ""triangle"" is the largest word, having 8 letters compared to ""circle"" (6) and ""square"" (6).",1,273,153,
+claude-opus-4-6,sequential,adaptive,high,s0_007,5,27,B,27B,s0_007,It belongs to you but no one else uses it. What is it?,"**Your name.**
+
+It belongs to you — it's *your* name — but in everyday life, other people are the ones who actually use it to address or refer to you.",1,340,379,
+claude-opus-4-6,sequential,adaptive,high,s0_007,6,15,B,15B,s0_007,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She is reading it.**
+
+The answer is already stated in the question itself — it tells you directly that she is reading it, making it a straightforward answer that people tend to overthink.",1,410,209,
+claude-opus-4-6,sequential,adaptive,high,s0_008,1,19,B,19B,s0_008,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","## A Bell
+
+A bell has a **mouth** (its open end), **ears** (the loops at the top used for hanging), a **body** (its main structure), and it hangs in towers where it **feels the wind** — all matching the riddle's clues without actually being alive.",1,69,351,
+claude-opus-4-6,sequential,adaptive,high,s0_008,2,16,B,16B,s0_008,What do you call a fly with wings?,"## A Fly
+
+This is a play on the classic joke — a fly *with* wings is simply called **a fly**, because the humor comes from its counterpart: a fly *without* wings would be called ""a walk.""",1,149,188,
+claude-opus-4-6,sequential,adaptive,high,s0_008,3,27,A,27A,s0_008,It belongs to you but everyone else uses it. What is it?,"## Your Name
+
+It belongs to you, but in everyday life, other people are the ones who actually use it most — to address you, refer to you, and get your attention.",1,218,60,
+claude-opus-4-6,sequential,adaptive,high,s0_008,4,26,B,26B,s0_008,"I have branches, fruit, a trunk, and leaves. What am I?","## A Tree
+
+A tree has all four of these features — **branches**, **fruit**, a **trunk**, and **leaves** — making it the straightforward and definitive answer to this riddle.",1,278,125,
+claude-opus-4-6,sequential,adaptive,high,s0_008,5,5,A,5A,s0_008,"Three girls share one umbrella on the way to school, but none of them get wet. How is it possible?","## It's Not Raining
+
+The riddle tricks you into assuming it's raining, but if there's no rain, the three girls can easily share one umbrella without any of them getting wet.",1,350,73,
+claude-opus-4-6,sequential,adaptive,high,s0_008,6,20,A,20A,s0_008,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","## T-H-A-T
+
+The riddle tricks you by making you think you need to spell ""Railroad Crossing"" without the letter R, but it's actually asking you to spell the word **""that""** — which has no R's at all.",1,418,122,
+claude-opus-4-6,sequential,adaptive,high,s0_009,1,23,B,23B,s0_009,What is not full of holes and can still hold water?,"**A bucket (or a cup/glass).**
+
+This riddle plays on the classic ""What *is* full of holes but still holds water?"" (a sponge) by flipping the question — and the straightforward answer is any ordinary container like a bucket, which has no holes and holds water just fine.",1,56,449,
+claude-opus-4-6,sequential,adaptive,high,s0_009,2,17,A,17A,s0_009,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,"**The number is 0.**
+
+Adding 0 to itself gives 0, and multiplying by 4 still gives 0 — so you get the same number once more.",1,156,172,
+claude-opus-4-6,sequential,adaptive,high,s0_009,3,27,A,27A,s0_009,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It belongs to you, but other people are the ones who use it most often when they refer to you or call for you.",1,216,53,
+claude-opus-4-6,sequential,adaptive,high,s0_009,4,11,B,11B,s0_009,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass (or cup) of water over his head and held his breath for 1 minute.**
+
+He was technically ""under water"" — beneath the water in the glass — so he fulfilled exactly what he said without needing to submerge himself.",1,346,720,
+claude-opus-4-6,sequential,adaptive,high,s0_009,5,29,A,29A,s0_009,"You're trapped in a room with three doors. The first leads to a room on fire, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three years. Which door is safest?","**The third door, with the lion.**
+
+A lion that hasn't eaten in three years would be dead from starvation, making it completely harmless.",1,459,69,
+claude-opus-4-6,sequential,adaptive,high,s0_009,6,5,B,5B,s0_009,"Three girls share three umbrellas on a rainy walk to school, and no girls got wet. How is it possible?","**It wasn't raining.**
+
+The riddle describes it as ""a rainy walk"" to mislead you, but if it wasn't actually raining at the time they walked, they wouldn't get wet regardless of the umbrellas.",1,524,453,
+claude-opus-4-6,sequential,adaptive,high,s0_010,1,3,A,3A,s0_010,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only 3 people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (of the grandfather), so while there are indeed ""two fathers and two sons,"" there are only three people, meaning one fish each is enough.",1,92,125,
+claude-opus-4-6,sequential,adaptive,high,s0_010,2,8,A,8A,s0_010,How many bananas can you eat if your stomach is empty?,"**One.**
+
+After eating one banana, your stomach is no longer empty, so you can only eat one banana on an empty stomach.",1,175,83,
+claude-opus-4-6,sequential,adaptive,high,s0_010,3,25,B,25B,s0_010,"I act like a cat, I look like a cat, and I am called a cat. What am I?","**A kitten.**
+
+A kitten acts like a cat, looks like a cat, and is often called a cat — but it's specifically a kitten.",1,232,57,
+claude-opus-4-6,sequential,adaptive,high,s0_010,4,6,A,6A,s0_010,"Which of the following is the largest? Circle, square, or triangle?","**Triangle.**
+
+Since no dimensions are given for the shapes, the trick is that the question is really about the words themselves — and ""triangle"" is the largest word, having the most letters (8).",1,287,244,
+claude-opus-4-6,sequential,adaptive,high,s0_010,5,29,B,29B,s0_010,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation, so it poses no threat to you.",1,385,67,
+claude-opus-4-6,sequential,adaptive,high,s0_010,6,20,B,20B,s0_010,"Railroad Crossing, look out for the cars. Can you spell that without any T's?","**Yes: T-H-A-T.**
+
+The trick is that the question is asking you to spell the word ""that,"" not the phrase ""Railroad Crossing, look out for the cars"" — the first sentence is just a distraction.",1,441,867,
+claude-opus-4-6,sequential,adaptive,high,s0_011,1,7,A,7A,s0_011,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""S""**
+
+The riddle is a play on words — rather than asking about a date, it's asking about the last letter of the *word* ""Christmas,"" which is **S**.",1,63,101,
+claude-opus-4-6,sequential,adaptive,high,s0_011,2,15,A,15A,s0_011,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","**She is sitting on it.**
+
+The book is being used as a booster seat — a common use for a book that doesn't involve reading, holding, or opening it.",1,144,103,
+claude-opus-4-6,sequential,adaptive,high,s0_011,3,6,B,6B,s0_011,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.**
+
+The adjectives directly describe the sizes — regardless of shape, ""large"" is bigger than ""medium"" or ""tiny,"" making the large rectangle the largest of the three.",1,208,93,
+claude-opus-4-6,sequential,adaptive,high,s0_011,4,21,B,21B,s0_011,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","**""I will be hanged.""**
+
+This creates a paradox — if they hang him, he told the truth and should be freed, but if they free him, he lied and should be hanged — making it impossible to carry out either punishment, thus saving him.",1,285,169,
+claude-opus-4-6,sequential,adaptive,high,s0_011,5,26,B,26B,s0_011,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+All of the clues — branches, fruit, a trunk, and leaves — are classic features of a tree, making it the straightforward answer.",1,365,60,
+claude-opus-4-6,sequential,adaptive,high,s0_011,6,29,A,29A,s0_011,"You're trapped in a room with three doors. The first leads to a room on fire, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three years. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three years would be dead from starvation, making it completely harmless and the safest choice.",1,456,66,
+claude-opus-4-6,sequential,adaptive,high,s0_012,1,12,B,12B,s0_012,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**The fence can't jump.**
+
+The bet was that the dog could jump higher than *the fence* could jump — and since fences can't jump at all, even a small hop by the dog wins the bet.",1,82,108,
+claude-opus-4-6,sequential,adaptive,high,s0_012,2,23,B,23B,s0_012,What is not full of holes and can still hold water?,"**A cup (or bucket, bowl, glass, etc.).**
+
+This is a play on the classic riddle ""What is *full* of holes but still holds water?"" (a sponge) — but by removing the tricky constraint, the answer becomes anything ordinary that holds water.",1,146,407,
+claude-opus-4-6,sequential,adaptive,high,s0_012,3,11,A,11A,s0_012,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass (or cup) of water over his head for 10 minutes.**
+
+He was technically ""under water"" without actually being submerged, so he didn't need to hold his breath at all.",1,301,83,
+claude-opus-4-6,sequential,adaptive,high,s0_012,4,19,A,19A,s0_012,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sounds without a mouth, ""hears"" the original sound without ears, has no physical body, and comes alive when sound travels through the air (wind).",1,381,135,
+claude-opus-4-6,sequential,adaptive,high,s0_012,5,27,A,27A,s0_012,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It's given to you and belongs to you, but in practice other people are the ones who say and use it far more than you do.",1,446,56,
+claude-opus-4-6,sequential,adaptive,high,s0_012,6,26,B,26B,s0_012,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+A tree has all four of those things — branches, fruit (on fruit-bearing trees), a trunk, and leaves — making it the straightforward answer to this riddle.",1,502,63,
+claude-opus-4-6,sequential,adaptive,high,s0_013,1,2,B,2B,s0_013,"You see a boat filled with people, and there's more than a single person on board. How is that possible?","**There's nothing impossible about it — a boat carrying multiple people is perfectly normal.**
+
+The riddle is designed to trick you into overthinking and searching for a clever catch, when in fact the scenario described is completely ordinary and needs no special explanation.",1,68,434,
+claude-opus-4-6,sequential,adaptive,high,s0_013,2,16,B,16B,s0_013,What do you call a fly with wings?,"**A fly.**
+
+A fly naturally has wings, so a fly with wings is just called a fly — the riddle tricks you into overthinking what is simply the normal state of things.",1,134,135,
+claude-opus-4-6,sequential,adaptive,high,s0_013,3,30,A,30A,s0_013,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+Five people each took an egg out of the basket, and the sixth person took the last egg while it was still inside the basket, so one egg remained ""in the basket.""",1,207,113,
+claude-opus-4-6,sequential,adaptive,high,s0_013,4,3,B,3B,s0_013,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a **father** (to the grandson) and a **son** (of the grandfather), so ""two fathers and two sons"" describes just three people — making four fish more than enough for one each.",1,312,680,
+claude-opus-4-6,sequential,adaptive,high,s0_013,5,12,A,12A,s0_013,A guy bet his neighbor 50 bucks that his dog could jump higher than a house. The neighbor took the bet and lost. How is that possible?,"**Houses can't jump.**
+
+Since a house can't jump at all, even the smallest jump by the dog is higher than a house's ""jump,"" so the neighbor lost the bet.",1,415,73,
+claude-opus-4-6,sequential,adaptive,high,s0_013,6,17,A,17A,s0_013,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,"**The number is 0.**
+
+Zero added to itself equals zero, and zero multiplied by 4 is still zero — any operation performed on zero always returns zero.",1,487,141,
+claude-opus-4-6,sequential,adaptive,high,s0_014,1,13,A,13A,s0_014,"Feed me I live, give me water I die. What am I?","**Fire.**
+
+Fire grows when you give it fuel (""feed"" it) but is extinguished when you pour water on it.",1,59,94,
+claude-opus-4-6,sequential,adaptive,high,s0_014,2,7,A,7A,s0_014,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""S.""**
+
+The riddle is a play on words — it's not asking about a date, but simply the last letter of the word ""Christmas.""",1,112,92,
+claude-opus-4-6,sequential,adaptive,high,s0_014,3,3,B,3B,s0_014,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so ""two fathers and two sons"" actually describes just three people — making four fish more than enough for one each.",1,202,320,
+claude-opus-4-6,sequential,adaptive,high,s0_014,4,5,A,5A,s0_014,"Three girls share one umbrella on the way to school, but none of them get wet. How is it possible?","**It wasn't raining.**
+
+The riddle leads you to assume it must be raining, but if there's no rain, they can all walk to school with one umbrella and stay perfectly dry.",1,293,73,
+claude-opus-4-6,sequential,adaptive,high,s0_014,5,10,B,10B,s0_014,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked over to it.**
+
+Since the rope was 5 meters long and the food was only 3 meters away, the food was well within the horse's reach — the riddle tricks you into assuming the food was out of reach, but it wasn't.",1,382,389,
+claude-opus-4-6,sequential,adaptive,high,s0_014,6,16,B,16B,s0_014,What do you call a fly with wings?,"**A fly.**
+
+A fly normally has wings, so it's just called ""a fly"" — the riddle plays on the alternate version, ""What do you call a fly *without* wings? A walk.""",1,456,167,
+claude-opus-4-6,sequential,adaptive,high,s0_015,1,15,A,15A,s0_015,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","**She is sitting on it.**
+
+The book isn't being read, held, or opened, but it can still be used as a makeshift booster seat — a common way children use books without actually ""reading"" them.",1,75,109,
+claude-opus-4-6,sequential,adaptive,high,s0_015,2,12,B,12B,s0_015,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than *the fence* could — and since a fence can't jump at all, even a small hop by the dog wins the bet.",1,166,111,
+claude-opus-4-6,sequential,adaptive,high,s0_015,3,26,B,26B,s0_015,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+All four things — branches, fruit, a trunk, and leaves — are natural parts of a tree, making it a straightforward riddle with a literal answer.",1,234,164,
+claude-opus-4-6,sequential,adaptive,high,s0_015,4,27,A,27A,s0_015,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It's yours because it was given to you, but in practice other people are the ones who use it most — to refer to you, call you, or get your attention.",1,292,63,
+claude-opus-4-6,sequential,adaptive,high,s0_015,5,28,A,28A,s0_015,"I have cities, but no houses; forests, but no trees; and water, but no fish. What am I?","**A map.**
+
+A map shows representations of cities, forests, and water, but since it's just a flat depiction, it contains none of the actual things — like houses, trees, or fish — that you'd find in those places.",1,364,73,
+claude-opus-4-6,sequential,adaptive,high,s0_015,6,6,B,6B,s0_015,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.**
+
+The answer is right in the wording — the adjectives ""tiny,"" ""medium,"" and ""large"" directly tell you the relative sizes, regardless of the shapes, making the ""large"" rectangle the biggest.",1,442,84,
+claude-opus-4-6,sequential,adaptive,high,s0_016,1,3,B,3B,s0_016,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","## Answer: **There were only 3 people — a grandfather, his son, and his grandson.**
+
+The grandfather and his son are the ""two fathers,"" while his son and grandson are the ""two sons"" (the middle person is both a father *and* a son), so 4 fish is more than enough for one each.",1,92,639,
+claude-opus-4-6,sequential,adaptive,high,s0_016,2,12,B,12B,s0_016,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"## Answer: **Fences can't jump.**
+
+The bet was that the dog could jump higher than *the fence could jump*, and since a fence can't jump at all, even the smallest jump by the dog wins the bet.",1,208,105,
+claude-opus-4-6,sequential,adaptive,high,s0_016,3,15,A,15A,s0_016,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","## Answer: **She is sitting on it (or standing on it).**
+
+She's using the book as a booster seat or a step stool — she's not reading, holding, or opening it, but she's still making use of it by sitting or standing on it to gain extra height.",1,294,114,
+claude-opus-4-6,sequential,adaptive,high,s0_016,4,27,A,27A,s0_016,It belongs to you but everyone else uses it. What is it?,"## Answer: **Your name.**
+
+It belongs to you, but other people are the ones who use it most — they say it, write it, and call you by it far more often than you use it yourself.",1,377,103,
+claude-opus-4-6,sequential,adaptive,high,s0_016,5,1,A,1A,s0_016,"A cowboy rode into town on Sunday, he stayed one night and rode out on Sunday. How is this possible?","## Answer: **His horse's name was Sunday.**
+
+The cowboy literally rode into town *on* a horse named Sunday, stayed one night, and then rode out *on* the same horse — Sunday.",1,452,75,
+claude-opus-4-6,sequential,adaptive,high,s0_016,6,14,B,14B,s0_016,Has keys and can open locks. What am I?,"## Answer: **A locksmith.**
+
+A locksmith literally has a collection of keys and has the ability and tools to open locks — fitting both parts of the riddle perfectly.",1,513,988,
+claude-opus-4-6,sequential,adaptive,high,s0_017,1,17,B,17B,s0_017,I'm a number. Add me to myself and divide by 2. You will have me once more. How is that possible?,"**Any number at all.**
+
+This works for every number because adding any number to itself doubles it, and dividing by 2 returns you to the original — it's a universal mathematical identity: *(x + x) ÷ 2 = x*.",1,71,174,
+claude-opus-4-6,sequential,adaptive,high,s0_017,2,12,B,12B,s0_017,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than *the fence could jump*, and since a fence can't jump at all, even the smallest hop by the dog wins the bet.",1,172,114,
+claude-opus-4-6,sequential,adaptive,high,s0_017,3,11,B,11B,s0_017,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head and held his breath for 1 minute.**
+
+He was technically ""under water"" (beneath a container of water held above him), and holding your breath for just one minute while not submerged is something almost anyone can easily do.",1,317,170,
+claude-opus-4-6,sequential,adaptive,high,s0_017,4,27,A,27A,s0_017,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It belongs to you, but other people are the ones who actually use it most often when they refer to you or address you.",1,397,53,
+claude-opus-4-6,sequential,adaptive,high,s0_017,5,25,A,25A,s0_017,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.**
+
+A kitten acts and looks like a cat, but it's technically not yet a full-grown cat — it's a kitten.",1,457,57,
+claude-opus-4-6,sequential,adaptive,high,s0_017,6,21,A,21A,s0_017,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be beheaded. What can he say to save himself?","**""I will be hanged.""**
+
+This creates a paradox — if they hang him, his statement was true, so he should have been beheaded; but if they behead him, his statement was a lie, so he should have been hanged — since neither punishment can be carried out without contradiction, they must set him free.",1,529,164,
+claude-opus-4-6,sequential,adaptive,high,s0_018,1,27,B,27B,s0_018,It belongs to you but no one else uses it. What is it?,"**Your name.**
+
+It belongs to you, yet other people use it far more than you do — you rarely say your own name, but everyone else uses it to refer to you or get your attention.",1,59,539,
+claude-opus-4-6,sequential,adaptive,high,s0_018,2,24,A,24A,s0_018,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?","**A doll.**
+
+A doll has hands, teeth, feet, and eyes as part of her appearance, but since she is not alive, she cannot hold, bite, feel warmth, or see.",1,143,164,
+claude-opus-4-6,sequential,adaptive,high,s0_018,3,8,B,8B,s0_018,How many bananas can you eat if your stomach is completely full?,"**None.**
+
+If your stomach is completely full, you cannot eat anything at all, including bananas.",1,207,62,
+claude-opus-4-6,sequential,adaptive,high,s0_018,4,10,A,10A,s0_018,"A horse was tied to a rope 5 meters long, and the horse's food was 15 meters away from the horse. How did the horse reach the food?","**The horse simply walked to the food.**
+
+The riddle says the horse was tied to a rope, but it never says the other end of the rope was tied to anything — so the horse could walk freely to reach the food 15 meters away.",1,271,131,
+claude-opus-4-6,sequential,adaptive,high,s0_018,5,22,B,22B,s0_018,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","**A car.**
+
+A car can be driven, has wheels, and unlike something like a wheel of cheese (which can be sliced and still arguably remain a wheel), a car cannot be sliced apart and remain whole or functional.",1,352,407,
+claude-opus-4-6,sequential,adaptive,high,s0_018,6,14,A,14A,s0_018,Has keys but can't open locks. What am I?,"**A piano.**
+
+A piano has many keys used to play music, but none of them can open any locks.",1,418,46,
+claude-opus-4-6,sequential,adaptive,high,s0_019,1,26,B,26B,s0_019,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+A tree is the one thing that naturally possesses all four of those features — a trunk, branches, leaves, and fruit.",1,60,53,
+claude-opus-4-6,sequential,adaptive,high,s0_019,2,6,B,6B,s0_019,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**A large rectangle.**
+
+The adjectives directly describe their sizes, and ""large"" is the biggest of ""tiny,"" ""medium,"" and ""large,"" making the large rectangle the largest.",0,118,43,
+claude-opus-4-6,sequential,adaptive,high,s0_019,3,23,A,23A,s0_019,What is full of holes and can still hold water?,"**A sponge.**
+
+A sponge is full of tiny holes throughout its structure, yet it absorbs and holds water within those very holes.",1,174,56,
+claude-opus-4-6,sequential,adaptive,high,s0_019,4,8,A,8A,s0_019,How many bananas can you eat if your stomach is empty?,"**One.**
+
+After eating the first banana, your stomach is no longer empty, so you can only eat one banana on an empty stomach.",1,225,74,
+claude-opus-4-6,sequential,adaptive,high,s0_019,5,30,A,30A,s0_019,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+Since six people each took one egg but there were only six eggs, the last person simply took the entire basket with the remaining egg inside, so one egg is still technically ""in the basket.""",1,288,91,
+claude-opus-4-6,sequential,adaptive,high,s0_019,6,14,B,14B,s0_019,Has keys and can open locks. What am I?,"**A keyboard.**
+
+A keyboard has keys (the buttons you press) and can open locks (such as typing in a password to unlock a computer or digital device).",1,359,629,
+claude-opus-4-6,sequential,adaptive,high,s0_020,1,19,A,19A,s0_020,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sounds and ""hears"" the original sound, has no physical body, and comes alive when sound travels through the air (wind).",1,70,156,
+claude-opus-4-6,sequential,adaptive,high,s0_020,2,12,B,12B,s0_020,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than the fence could, and since a fence can't jump at all, even the smallest jump by the dog wins the bet.",1,154,108,
+claude-opus-4-6,sequential,adaptive,high,s0_020,3,7,A,7A,s0_020,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""s.""**
+
+The riddle is playing on the word ""end"" literally, so the ""end"" of the word *Christmas* is the letter ""s.""",1,223,74,
+claude-opus-4-6,sequential,adaptive,high,s0_020,4,14,A,14A,s0_020,Has keys but can't open locks. What am I?,"**A piano.**
+
+A piano has many keys (88 in a standard piano) but none of them can be used to open any lock.",1,279,52,
+claude-opus-4-6,sequential,adaptive,high,s0_020,5,24,B,24B,s0_020,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?","**A doll.**
+
+A doll has hands but can't hold anything, has teeth but can't bite, has feet but they don't get cold, and has eyes but can't actually see.",1,350,211,
+claude-opus-4-6,sequential,adaptive,high,s0_020,6,17,B,17B,s0_020,I'm a number. Add me to myself and divide by 2. You will have me once more. How is that possible?,"**Any number.**
+
+This works for every number because adding any number to itself doubles it, and dividing by 2 brings it right back to the original value (x + x = 2x, and 2x ÷ 2 = x).",1,425,166,
+claude-opus-4-6,sequential,adaptive,high,s0_021,1,21,A,21A,s0_021,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be beheaded. What can he say to save himself?","## **""I will be hanged.""**
+
+This creates an unresolvable paradox: if they hang him, he told the truth and should have been beheaded, but if they behead him, he lied and should have been hanged—so neither sentence can be carried out, and he must go free.",1,76,200,
+claude-opus-4-6,sequential,adaptive,high,s0_021,2,18,B,18B,s0_021,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","## **A stapler.**
+
+Its metal staples are the ""pointed fangs"" that sit waiting on your desk, and when pressed down it crunches with piercing force to ""bite"" through papers and clamp them together—making the language of venom and victims a playful metaphor for an everyday office tool.",1,195,226,
+claude-opus-4-6,sequential,adaptive,high,s0_021,3,29,A,29A,s0_021,"You're trapped in a room with three doors. The first leads to a room on fire, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three years. Which door is safest?","## **The third door.**
+
+A lion that hasn't eaten in three years would be long dead from starvation, making it completely harmless.",1,319,67,
+claude-opus-4-6,sequential,adaptive,high,s0_021,4,28,B,28B,s0_021,"I have cities, houses, forests, trees, water, and fish. What am I?","## **A map.**
+
+A map contains cities, houses, forests, trees, water, and fish—all represented as illustrations or labels—without having any of the real things themselves.",1,375,60,
+claude-opus-4-6,sequential,adaptive,high,s0_021,5,24,B,24B,s0_021,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?","## **A doll.**
+
+A doll has hands that don't hold, teeth that don't bite, feet that are cold (not alive), and eyes that don't truly see—she has all the features of a person but none of the functions.",1,454,251,
+claude-opus-4-6,sequential,adaptive,high,s0_021,6,26,A,26A,s0_021,"I have branches, but no fruit, trunk, or leaves. What am I?","## **A bank.**
+
+A bank has many ""branches"" (local offices), but since it's not a tree, it has no fruit, trunk, or leaves.",1,530,69,
+claude-opus-4-6,sequential,adaptive,high,s0_022,1,10,B,10B,s0_022,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked over to the food.**
+
+The food was only **3 meters away**, and the rope was **5 meters long**, so the horse had more than enough rope to reach it — the puzzle is designed to make you overthink a problem that has a straightforward solution.",1,84,259,
+claude-opus-4-6,sequential,adaptive,high,s0_022,2,19,B,19B,s0_022,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A person (a human being).**
+
+All the clues — speaking with a mouth, hearing with ears, having a body, and feeling the wind — are straightforward descriptions of an ordinary human, and the riddle works by making you overthink and look for a trick answer when the simplest one is correct.",1,176,142,
+claude-opus-4-6,sequential,adaptive,high,s0_022,3,22,A,22A,s0_022,"It can be driven, but has no wheels, and can also be sliced and remain whole. What is it?","**A golf ball.**
+
+In golf, you can **""drive""** the ball off the tee and **""slice""** it (hit it with a curving trajectory), yet the ball has no wheels and remains perfectly whole after both shots.",1,272,196,
+claude-opus-4-6,sequential,adaptive,high,s0_022,4,30,A,30A,s0_022,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+Five people each took an egg out of the basket, and the sixth person took the last egg *along with the basket*, so one egg technically remained ""in the basket.""",1,358,114,
+claude-opus-4-6,sequential,adaptive,high,s0_022,5,11,A,11A,s0_022,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass (or container) of water over his head for 10 minutes.**
+
+He was technically ""under water"" — the water was above him — without actually submerging himself, so he didn't need to hold his breath at all.",1,502,98,
+claude-opus-4-6,sequential,adaptive,high,s0_022,6,8,B,8B,s0_022,How many bananas can you eat if your stomach is completely full?,"**None.**
+
+If your stomach is **completely full**, you cannot eat anything at all, including bananas — the riddle tricks you into trying to come up with a number when the obvious answer is zero.",1,577,82,
+claude-opus-4-6,sequential,adaptive,high,s0_023,1,2,A,2A,s0_023,"You see a boat filled with people, yet there isn't a single person on board. How is that possible?","**All the people on board are married.**
+
+The riddle plays on the double meaning of the word ""single"" — it doesn't mean there are no people, but rather that every person on the boat is married (i.e., not a *single* person).",1,67,125,
+claude-opus-4-6,sequential,adaptive,high,s0_023,2,29,B,29B,s0_023,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation, making it completely harmless to you.",1,179,67,
+claude-opus-4-6,sequential,adaptive,high,s0_023,3,18,A,18A,s0_023,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?","**A stapler.**
+
+The riddle uses violent imagery metaphorically — the ""pointed fangs"" are the staple's prongs, and the ""single bite"" refers to how a stapler pierces and physically joins sheets of paper together.",1,258,178,
+claude-opus-4-6,sequential,adaptive,high,s0_023,4,27,A,27A,s0_023,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It belongs to you because it's yours, but in practice other people are the ones who use it most often — to refer to you, call you, or address you.",1,330,62,
+claude-opus-4-6,sequential,adaptive,high,s0_023,5,9,B,9B,s0_023,You have 10 peaches and 3 peaches are taken away. You now have 7 peaches. How is that possible?,"**It's simply correct math — 10 minus 3 equals 7.**
+
+The riddle tricks you into thinking something is off or paradoxical, but it's actually a straightforward subtraction problem with no trick at all.",1,407,145,
+claude-opus-4-6,sequential,adaptive,high,s0_023,6,26,B,26B,s0_023,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+All four clues — branches, fruit, a trunk, and leaves — are classic physical features of a tree, making this a straightforward riddle with no hidden trick.",1,479,162,
+claude-opus-4-6,sequential,adaptive,high,s0_024,1,11,B,11B,s0_024,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass (or cup) of water over his head and held his breath for 1 minute.**
+
+He was technically ""under water"" without being submerged, making it easy to hold his breath for just one minute — well under the magician's 6-minute record, but fulfilling the literal claim exactly as stated.",1,137,183,
+claude-opus-4-6,sequential,adaptive,high,s0_024,2,6,B,6B,s0_024,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.**
+
+The adjectives themselves tell you the answer — regardless of shape, ""large"" is bigger than ""medium,"" which is bigger than ""tiny.""",1,237,81,
+claude-opus-4-6,sequential,adaptive,high,s0_024,3,21,A,21A,s0_024,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be beheaded. What can he say to save himself?","**""I will be hanged.""**
+
+This creates a paradox: if the statement is true, he should be beheaded (the punishment for truth), but that would make his statement false — and if it's false, he should be hanged, which would make it true. Since neither sentence can be carried out without contradiction, the prisoner goes free.",1,310,206,
+claude-opus-4-6,sequential,adaptive,high,s0_024,4,30,A,30A,s0_024,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+Five people each took an egg out of the basket, and the sixth person took the last egg while it was still inside the basket — so one egg remained ""in the basket"" even after all six were taken.",1,419,90,
+claude-opus-4-6,sequential,adaptive,high,s0_024,5,28,B,28B,s0_024,"I have cities, houses, forests, trees, water, and fish. What am I?","**A map.**
+
+A map has cities, houses, forests, trees, water, and fish — but none of them are real; they are all just representations drawn on paper.",1,502,59,
+claude-opus-4-6,sequential,adaptive,high,s0_024,6,20,A,20A,s0_024,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T.**
+
+The riddle asks ""Can you spell *that* without any R's?"" — and the word ""that"" is easily spelled without any R's.",1,564,124,
+claude-opus-4-6,sequential,adaptive,high,s0_025,1,8,A,8A,s0_025,How many bananas can you eat if your stomach is empty?,"**One.**
+
+After you eat the first banana, your stomach is no longer empty.",1,57,63,
+claude-opus-4-6,sequential,adaptive,high,s0_025,2,16,A,16A,s0_025,What do you call a fly without wings?,"**A walk.**
+
+Because without wings it can no longer fly, so it can only walk.",1,90,68,
+claude-opus-4-6,sequential,adaptive,high,s0_025,3,14,A,14A,s0_025,Has keys but can't open locks. What am I?,"**A piano.**
+
+A piano has keys (the black and white ones you press to play music), but none of them can open any locks.",1,128,52,
+claude-opus-4-6,sequential,adaptive,high,s0_025,4,28,B,28B,s0_025,"I have cities, houses, forests, trees, water, and fish. What am I?","**A map.**
+
+A map has cities, houses, forests, trees, water, and fish depicted on it, but none of them are real — they're just representations.",1,183,58,
+claude-opus-4-6,sequential,adaptive,high,s0_025,5,22,B,22B,s0_025,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","**A car.**
+
+A car can be driven, has wheels, and if you slice it in half, it certainly won't remain whole — unlike, say, a wheel of cheese, which can be sliced and still arguably serve its purpose.",1,247,463,
+claude-opus-4-6,sequential,adaptive,high,s0_025,6,20,B,20B,s0_025,"Railroad Crossing, look out for the cars. Can you spell that without any T's?","**T-H-A-T.**
+
+The riddle tricks you into thinking you need to spell ""Railroad Crossing, look out for the cars"" without any T's, but it's actually asking you to spell the word **""that""** — which you just did.",1,322,1337,
+claude-opus-4-6,sequential,adaptive,high,s0_026,1,26,A,26A,s0_026,"I have branches, but no fruit, trunk, or leaves. What am I?","**A bank.**
+
+A bank has ""branches"" (its various locations), but unlike a tree, it has no fruit, trunk, or leaves.",1,61,72,
+claude-opus-4-6,sequential,adaptive,high,s0_026,2,4,B,4B,s0_026,A black dog stands in the middle of an intersection in a town painted black at night. All of the street lights are working. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,"**The street lights illuminated the dog.**
+
+The riddle is designed to make you focus on the darkness and broken headlights, but it clearly states that ""all of the street lights are working,"" which would provide plenty of light for the driver to see the black dog in the intersection.",1,156,351,
+claude-opus-4-6,sequential,adaptive,high,s0_026,3,21,B,21B,s0_026,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","**""I will be hanged.""**
+
+This creates a paradox: if they hang him, then he told the truth and should be freed, but if they free him, then he lied and should be hanged — since neither outcome can be carried out without contradiction, the authorities cannot execute the sentence, and he saves himself.",1,252,317,
+claude-opus-4-6,sequential,adaptive,high,s0_026,4,3,A,3A,s0_026,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so the group consists of ""two fathers and two sons"" while actually being only three people — one fish each.",1,375,122,
+claude-opus-4-6,sequential,adaptive,high,s0_026,5,7,A,7A,s0_026,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""s.""**
+
+The riddle plays on the word ""end"" — rather than asking about a date, it's asking about the last letter of the word ""Christmas,"" which is ""s.""",1,460,80,
+claude-opus-4-6,sequential,adaptive,high,s0_026,6,29,B,29B,s0_026,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door — the lion.**
+
+A lion that hasn't eaten in three days would be dead from starvation, so it poses no threat to you.",1,560,534,
+claude-opus-4-6,sequential,adaptive,high,s0_027,1,14,A,14A,s0_027,Has keys but can't open locks. What am I?,"**A piano.**
+
+A piano has many keys (musical keys) but none of them can open a lock.",1,56,52,
+claude-opus-4-6,sequential,adaptive,high,s0_027,2,3,A,3A,s0_027,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so ""two fathers and two sons"" actually refers to just three people, meaning one fish each works out perfectly.",1,133,125,
+claude-opus-4-6,sequential,adaptive,high,s0_027,3,22,B,22B,s0_027,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","**A car.**
+
+A car can be driven, has wheels, and unlike something like a pizza or a pie, it cannot be sliced apart and still remain a whole, functional object.",1,221,562,
+claude-opus-4-6,sequential,adaptive,high,s0_027,4,17,A,17A,s0_027,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,"**Zero (0).**
+
+Adding zero to itself gives zero, and multiplying zero by 4 still gives zero, so you end up with the same number you started with.",1,293,142,
+claude-opus-4-6,sequential,adaptive,high,s0_027,5,23,B,23B,s0_027,What is not full of holes and can still hold water?,"**A sponge.**
+
+This is the classic riddle typically phrased as ""What is *full* of holes but can still hold water?"" — a sponge is riddled with holes throughout its structure, yet it absorbs and holds water effectively.",1,349,282,
+claude-opus-4-6,sequential,adaptive,high,s0_027,6,24,B,24B,s0_027,"Hands she has but does hold, teeth she has but does bite, feet she has but they are not cold, eyes she has but with sight. Who is she?","**A doll.**
+
+A doll has hands but cannot hold anything, teeth but cannot bite, feet but cannot feel cold, and eyes but cannot actually see — she has all these features in appearance only, without any real function.",1,445,261,
+claude-opus-4-6,sequential,adaptive,high,s0_028,1,21,B,21B,s0_028,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","## **""I will be hanged.""**
+
+This creates a paradox that prevents execution: if they hang him, his statement was **true**, so by the rules he should be freed; but if they free him, his statement was **false**, so he should be hanged — since they cannot carry out the hanging without contradicting their own rules, they are forced to set him free.",1,74,258,
+claude-opus-4-6,sequential,adaptive,high,s0_028,2,22,B,22B,s0_028,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","## **A car.**
+
+A car can be driven, has wheels, and if you slice it in half, it certainly won't remain a functioning whole — unlike, say, a deck of cards, which can be ""cut"" and still remain complete.",1,183,830,
+claude-opus-4-6,sequential,adaptive,high,s0_028,3,6,A,6A,s0_028,"Which of the following is the largest? Circle, square, or triangle?","## **Triangle.**
+
+Since no dimensions are given, the question is about the **words themselves** — ""triangle"" is the largest with 8 letters, compared to ""circle"" (6) and ""square"" (6).",1,256,291,
+claude-opus-4-6,sequential,adaptive,high,s0_028,4,19,A,19A,s0_028,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","## **An echo.**
+
+An echo ""speaks"" by reproducing sound without a mouth, ""hears"" by responding to sound without ears, has no physical body, and comes alive as sound waves travel through the air (wind).",1,336,148,
+claude-opus-4-6,sequential,adaptive,high,s0_028,5,10,B,10B,s0_028,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","## **The horse simply walked to the food.**
+
+The food was only **3 meters away** and the rope was **5 meters long**, so the horse had more than enough rope length to reach its food with ease — the riddle tricks you into assuming the distance is a problem when it isn't.",1,430,320,
+claude-opus-4-6,sequential,adaptive,high,s0_028,6,18,A,18A,s0_028,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?","## **A stapler.**
+
+A stapler has pointed metal ""fangs"" (the staple), sits waiting on a desk, pierces through papers with force, and physically joins them together with a single ""bite"" — the staple crunching through and binding the sheets.",1,542,141,
+claude-opus-4-6,sequential,adaptive,high,s0_029,1,9,B,9B,s0_029,You have 10 peaches and 3 peaches are taken away. You now have 7 peaches. How is that possible?,"**It's completely possible because 10 − 3 = 7.**
+
+The problem is designed to make you overthink it, but the math is straightforward — if you start with 10 peaches and 3 are taken away, you are simply left with 7 peaches, exactly as stated.",1,75,162,
+claude-opus-4-6,sequential,adaptive,high,s0_029,2,21,B,21B,s0_029,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","**He says: ""I will be hanged.""**
+
+This creates a paradox that saves him — if they hang him, then he told the truth and should have been freed; if they free him, then he lied and should have been hanged — so the only practical resolution is to set him free, since hanging him would contradict the rules.",1,179,203,
+claude-opus-4-6,sequential,adaptive,high,s0_029,3,29,A,29A,s0_029,"You're trapped in a room with three doors. The first leads to a room on fire, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three years. Which door is safest?","**The third door with the lion.**
+
+A lion that hasn't eaten in three years would be dead from starvation, making it completely harmless and the safest choice.",1,309,73,
+claude-opus-4-6,sequential,adaptive,high,s0_029,4,19,B,19B,s0_029,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A person (a human being).**
+
+The riddle is designed to make you overthink it, but everything described — speaking with a mouth, hearing with ears, having a body, and feeling the wind — straightforwardly describes a human being.",1,377,478,
+claude-opus-4-6,sequential,adaptive,high,s0_029,5,1,A,1A,s0_029,"A cowboy rode into town on Sunday, he stayed one night and rode out on Sunday. How is this possible?","**His horse's name is Sunday.**
+
+The riddle uses ""Sunday"" to make you think of the day of the week, but the cowboy actually rode into town on a horse named Sunday, so he could stay one night and ride out on the same horse regardless of the day.",1,460,90,
+claude-opus-4-6,sequential,adaptive,high,s0_029,6,20,A,20A,s0_029,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T.**
+
+The riddle asks ""Can you spell *that* without any R's?"" — and the word ""that"" contains no R's at all, so yes, you can easily spell it.",1,544,135,
+claude-opus-4-6,sequential,adaptive,high,s0_030,1,28,B,28B,s0_030,"I have cities, houses, forests, trees, water, and fish. What am I?","**A map.**
+
+A map contains representations of cities, houses, forests, trees, water, and fish, but none of them are real — they are just symbols and labels on paper (or a screen).",1,63,338,
+claude-opus-4-6,sequential,adaptive,high,s0_030,2,18,B,18B,s0_030,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+Its metal ""fangs"" (staples) sit waiting on your desk, and when pressed down, they pierce through papers with a forceful ""bite,"" clamping them together much like a snake striking its prey.",1,156,154,
+claude-opus-4-6,sequential,adaptive,high,s0_030,3,9,B,9B,s0_030,You have 10 peaches and 3 peaches are taken away. You now have 7 peaches. How is that possible?,"**It's simply correct math: 10 − 3 = 7.**
+
+The riddle tricks you into overthinking it, but there's no catch — subtracting 3 peaches from 10 peaches leaves you with exactly 7 peaches.",1,244,253,
+claude-opus-4-6,sequential,adaptive,high,s0_030,4,15,A,15A,s0_030,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","**She is sitting on it.**
+
+The book is being used as a booster seat — she's sitting on top of it to gain extra height, which means she isn't reading, holding, or opening it.",1,340,121,
+claude-opus-4-6,sequential,adaptive,high,s0_030,5,12,A,12A,s0_030,A guy bet his neighbor 50 bucks that his dog could jump higher than a house. The neighbor took the bet and lost. How is that possible?,"**Houses can't jump.**
+
+The trick is in the wording — since a house can't jump at all, even the smallest jump by the dog is higher than a house's jump, so the neighbor lost the bet.",1,423,80,
+claude-opus-4-6,sequential,adaptive,high,s0_030,6,27,A,27A,s0_030,It belongs to you but everyone else uses it. What is it?,"**Your name.**
+
+It belongs to you, but in practice other people are the ones who say and use it most often to refer to you.",1,489,52,
+claude-opus-4-6,sequential,adaptive,high,s0_031,1,22,B,22B,s0_031,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","**A car.**
+
+It can be driven on the road, has wheels, and if you slice it in half, it certainly won't remain a whole, functioning vehicle—distinguishing it from things like pizza or cheese, which can be ""wheeled"" and sliced while still being what they are.",1,66,389,
+claude-opus-4-6,sequential,adaptive,high,s0_031,2,17,B,17B,s0_031,I'm a number. Add me to myself and divide by 2. You will have me once more. How is that possible?,"**Any number at all.**
+
+Adding any number to itself doubles it, and dividing by 2 simply undoes the doubling, so you always get the original number back — the ""trick"" is that it's basic arithmetic that works universally, not a special property of one particular number.",1,161,203,
+claude-opus-4-6,sequential,adaptive,high,s0_031,3,28,A,28A,s0_031,"I have cities, but no houses; forests, but no trees; and water, but no fish. What am I?","**A map.**
+
+A map shows cities, forests, and bodies of water, but since it's just a representation, it contains none of the actual houses, trees, or fish you'd find in those real places.",1,254,67,
+claude-opus-4-6,sequential,adaptive,high,s0_031,4,12,B,12B,s0_031,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than the fence could, and since a fence can't jump at all, even the smallest jump by the dog wins the bet.",1,343,101,
+claude-opus-4-6,sequential,adaptive,high,s0_031,5,11,A,11A,s0_031,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+He was technically ""under water"" without actually being submerged, so he didn't need to hold his breath at all.",1,481,79,
+claude-opus-4-6,sequential,adaptive,high,s0_031,6,1,A,1A,s0_031,"A cowboy rode into town on Sunday, he stayed one night and rode out on Sunday. How is this possible?","**His horse's name was Sunday.**
+
+The cowboy literally rode in ""on Sunday"" (his horse) and rode out ""on Sunday"" — it refers to the horse's name, not the day of the week.",1,555,77,
+claude-opus-4-6,sequential,adaptive,high,s0_032,1,10,B,10B,s0_032,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked over to the food.**
+
+Since the rope was 5 meters long and the food was only 3 meters away, the horse had more than enough rope to reach it — the puzzle tricks you into assuming there's an obstacle, but 3 meters is well within the 5-meter reach.",1,84,265,
+claude-opus-4-6,sequential,adaptive,high,s0_032,2,17,A,17A,s0_032,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,"**The number is 0.**
+
+Adding 0 to itself gives 0, and multiplying by 4 still gives 0 — zero remains itself through any amount of multiplication or addition with itself.",1,185,173,
+claude-opus-4-6,sequential,adaptive,high,s0_032,3,7,A,7A,s0_032,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""S.""**
+
+The riddle is a play on words — it's not asking about a date, but about the literal last letter of the *word* ""Christmas,"" which is ""S.""",1,254,100,
+claude-opus-4-6,sequential,adaptive,high,s0_032,4,6,B,6B,s0_032,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.**
+
+The answer is right in the description — the adjectives ""tiny,"" ""medium,"" and ""large"" directly tell you the sizes, so the ""large"" rectangle is the largest regardless of shape.",1,325,105,
+claude-opus-4-6,sequential,adaptive,high,s0_032,5,1,A,1A,s0_032,"A cowboy rode into town on Sunday, he stayed one night and rode out on Sunday. How is this possible?","**The horse's name is Sunday.**
+
+The riddle tricks you into thinking ""Sunday"" refers to the day of the week, but the cowboy actually rode into town *on a horse named Sunday*, so he could stay one night and still ride out ""on Sunday.""",1,401,87,
+claude-opus-4-6,sequential,adaptive,high,s0_032,6,15,B,15B,s0_032,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She's simply reading it.**
+
+The answer is already stated in the question itself — the riddle tries to make you overthink it, but it directly tells you she is reading, holding, and has the book open, which is just the normal way of using a book.",1,489,225,
+claude-opus-4-6,sequential,adaptive,high,s0_033,1,3,A,3A,s0_033,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**Answer: There were only 3 people — a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so the group contains ""two fathers and two sons"" but only three people, each getting one fish.",1,92,119,
+claude-opus-4-6,sequential,adaptive,high,s0_033,2,7,A,7A,s0_033,"If the end of the year is December 31st, what is the end of Christmas?","**Answer: The letter ""s.""**
+
+The riddle is a play on words — it's not asking about a date but about the last letter of the *word* ""Christmas,"" which is ""s.""",1,179,97,
+claude-opus-4-6,sequential,adaptive,high,s0_033,3,30,A,30A,s0_033,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**Answer: The sixth person took the basket with the egg still in it.**
+
+The first five people each took an egg out of the basket, but the last person took the entire basket with the remaining egg inside, so one egg is still ""in the basket.""",1,257,91,
+claude-opus-4-6,sequential,adaptive,high,s0_033,4,28,B,28B,s0_033,"I have cities, houses, forests, trees, water, and fish. What am I?","**Answer: A map.**
+
+A map contains representations of cities, houses, forests, trees, water, and fish, but none of them are real — they are just drawings or symbols on the map.",1,336,96,
+claude-opus-4-6,sequential,adaptive,high,s0_033,5,27,B,27B,s0_033,It belongs to you but no one else uses it. What is it?,"**Answer: Your name.**
+
+Your name belongs to you, but it is primarily used by *other people* to refer to you — you rarely use it yourself, making it something that ""belongs to you"" yet is essentially used by everyone else.",1,399,313,
+claude-opus-4-6,sequential,adaptive,high,s0_033,6,23,B,23B,s0_033,What is not full of holes and can still hold water?,"**Answer: A sponge.**
+
+This is likely the classic riddle ""What is *full* of holes but can still hold water?"" — a sponge is riddled with tiny holes throughout its structure, yet it absorbs and holds water within those very holes.",1,468,244,
+claude-opus-4-6,sequential,adaptive,high,s0_034,1,15,A,15A,s0_034,"A girl has a book, but she is not reading it, she is not holding it, and it is not open. How is she using it?","**She is sitting on it.**
+
+The book is being used as a booster seat—she's not reading, holding, or opening it, but she can still use it by sitting on it to reach something higher, like a table.",1,75,88,
+claude-opus-4-6,sequential,adaptive,high,s0_034,2,18,B,18B,s0_034,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+Its ""fangs"" are the metal staple points, it ""sits and waits"" on a desk, it ""crunches"" down with piercing force, and it ""injects"" a staple (the ""venom"") into paper with a single bite.",1,174,221,
+claude-opus-4-6,sequential,adaptive,high,s0_034,3,13,B,13B,s0_034,"Feed me I live, give me water I thrive. What am I?","**A plant.**
+
+A plant lives when you feed it (nutrients/soil) and thrives when you give it water—both sustain and help it grow, fitting the riddle perfectly.",1,259,158,
+claude-opus-4-6,sequential,adaptive,high,s0_034,4,1,B,1B,s0_034,"A cowboy rode into town on Sunday, he stayed one night and rode out on Monday. How is this possible?","**His horse's name is Monday.**
+
+The riddle tricks you by making ""Sunday"" and ""Monday"" sound like days of the week, but ""Monday"" is actually the name of his horse—he rode into town on (a horse called) Monday, stayed one night, and rode out on Monday.",1,329,728,
+claude-opus-4-6,sequential,adaptive,high,s0_034,5,26,A,26A,s0_034,"I have branches, but no fruit, trunk, or leaves. What am I?","**A bank.**
+
+A bank has ""branches"" (local offices), but unlike a tree, it has no fruit, trunk, or leaves.",1,416,64,
+claude-opus-4-6,sequential,adaptive,high,s0_034,6,20,A,20A,s0_034,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T.**
+
+The riddle asks ""Can you spell **that** without any R's?""—and the word ""that"" is simply spelled T-H-A-T, which contains no R's at all.",1,471,144,
+claude-opus-4-6,sequential,adaptive,high,s0_035,1,27,B,27B,s0_035,It belongs to you but no one else uses it. What is it?,"**Your name.**
+
+It belongs to you, yet in everyday life, other people are the ones who actually say and use your name far more than you do yourself — making it something you own but rarely ""use.""",1,59,292,
+claude-opus-4-6,sequential,adaptive,high,s0_035,2,4,B,4B,s0_035,A black dog stands in the middle of an intersection in a town painted black at night. All of the street lights are working. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,"**It was daytime.**
+
+The riddle is designed to make you assume it's nighttime by using words like ""black"" and ""night,"" but it never actually states the event is happening at night — ""at night"" describes when the town was painted black, and during the day the driver could easily see the dog regardless of broken headlights or the town's color.",1,167,1139,
+claude-opus-4-6,sequential,adaptive,high,s0_035,3,10,B,10B,s0_035,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked to the food — the rope was tied to the horse but the other end wasn't tied to the post.**
+
+The riddle says the horse was tied ""to a post"" using a rope, which tricks you into assuming the rope was secured to the post, but the rope was only tied around the horse, leaving it free to walk to the food.",1,291,923,
+claude-opus-4-6,sequential,adaptive,high,s0_035,4,11,A,11A,s0_035,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+He was technically ""under water"" without actually being submerged, so he could breathe normally the entire time and easily last 10 minutes.",1,462,96,
+claude-opus-4-6,sequential,adaptive,high,s0_035,5,19,A,19A,s0_035,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sound without a mouth, ""hears"" without ears by receiving sound waves, has no physical body, and comes alive with wind (moving air carrying sound).",1,543,67,
+claude-opus-4-6,sequential,adaptive,high,s0_035,6,3,A,3A,s0_035,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so ""two fathers and two sons"" actually describes just three people, meaning one fish each works out perfectly.",1,642,115,
+claude-opus-4-6,sequential,adaptive,high,s0_036,1,25,A,25A,s0_036,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.**
+
+A kitten behaves and looks just like a cat, but it is specifically a young cat, so it is not yet fully ""a cat.""",1,67,98,
+claude-opus-4-6,sequential,adaptive,high,s0_036,2,12,B,12B,s0_036,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than the fence could jump, and since a fence can't jump at all, even the smallest jump by the dog wins the bet.",1,147,110,
+claude-opus-4-6,sequential,adaptive,high,s0_036,3,18,B,18B,s0_036,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+Its metal staples resemble pointed fangs that pierce through papers (its ""victims""), crunching down and binding them together in a single ""bite.""",1,242,130,
+claude-opus-4-6,sequential,adaptive,high,s0_036,4,2,A,2A,s0_036,"You see a boat filled with people, yet there isn't a single person on board. How is that possible?","**All the people on board are married.**
+
+The riddle plays on the double meaning of ""single"" — there isn't a *single* (unmarried) person on the boat because everyone aboard is married.",1,309,111,
+claude-opus-4-6,sequential,adaptive,high,s0_036,5,20,A,20A,s0_036,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T.**
+
+The riddle cleverly asks ""Can you spell *that* without any R's?"" — and the word ""that"" is simply spelled T-H-A-T, which contains no R's at all.",1,378,152,
+claude-opus-4-6,sequential,adaptive,high,s0_036,6,13,B,13B,s0_036,"Feed me I live, give me water I thrive. What am I?","**A plant.**
+
+A plant survives when you feed it (with nutrients or fertilizer) and thrives when you give it water, as both are essential for its growth and health.",1,454,284,
+claude-opus-4-6,sequential,adaptive,high,s0_037,1,24,A,24A,s0_037,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?","**A doll.**
+
+A doll has all these human features—hands, teeth, feet, and eyes—but since she is an inanimate object, none of them perform their living functions.",1,80,179,
+claude-opus-4-6,sequential,adaptive,high,s0_037,2,18,B,18B,s0_037,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+Its pointed staple prongs are the ""fangs"" that sit and wait on a desk, and when pressed down, they crunch through papers (victims) and pierce them with a staple (""venom"") in a single bite.",1,172,174,
+claude-opus-4-6,sequential,adaptive,high,s0_037,3,7,A,7A,s0_037,"If the end of the year is December 31st, what is the end of Christmas?","**The letter ""S"".**
+
+The riddle is a play on words—rather than asking about a date, it's asking about the last letter of the *word* ""Christmas,"" which is the letter S.",1,252,100,
+claude-opus-4-6,sequential,adaptive,high,s0_037,4,11,B,11B,s0_037,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can hold my breath underwater for 1 minute using no type of equipment or air pockets!"" The magician told the kid if he could do exactly what he said, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head and held his breath for 1 minute.**
+
+He was technically ""under water"" — with the water above him — so he fulfilled the exact wording of his claim without actually being submerged.",1,396,153,
+claude-opus-4-6,sequential,adaptive,high,s0_037,5,20,B,20B,s0_037,"Railroad Crossing, look out for the cars. Can you spell that without any T's?","**T-H-A-T.**
+
+The riddle is a play on words — it's not asking you to spell ""Railroad Crossing, look out for the cars"" without the letter T; it's simply asking, ""Can you spell **that**?"" — and ""that"" is spelled T-H-A-T.",1,474,775,
+claude-opus-4-6,sequential,adaptive,high,s0_037,6,30,A,30A,s0_037,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the egg while it was still in the basket.**
+
+The last person took the basket itself with the egg still inside it, so technically one egg remained ""in the basket"" even though all six eggs were taken.",1,578,85,
+claude-opus-4-6,sequential,adaptive,high,s0_038,1,5,B,5B,s0_038,"Three girls share three umbrellas on a rainy walk to school, and no girls got wet. How is it possible?","**Each girl used one umbrella.** ""Sharing"" three umbrellas among three girls simply means they divided them equally—one per person—so each girl stayed dry.",1,70,339,
+claude-opus-4-6,sequential,adaptive,high,s0_038,2,23,A,23A,s0_038,What is full of holes and can still hold water?,"**A sponge.** A sponge is full of tiny holes throughout its structure, yet its absorbent material allows it to soak up and hold water within those very holes.",1,124,64,
+claude-opus-4-6,sequential,adaptive,high,s0_038,3,8,A,8A,s0_038,How many bananas can you eat if your stomach is empty?,"**One.** After you eat the first banana, your stomach is no longer empty, so you can only eat one banana on an empty stomach.",1,183,78,
+claude-opus-4-6,sequential,adaptive,high,s0_038,4,6,B,6B,s0_038,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.** The adjectives directly describe their sizes—""tiny,"" ""medium,"" and ""large""—so regardless of shape, the ""large"" rectangle is the largest of the three.",1,240,77,
+claude-opus-4-6,sequential,adaptive,high,s0_038,5,19,B,19B,s0_038,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A person (human being).** All the clues describe ordinary human traits—we speak with our mouths, hear with our ears, have physical bodies, and feel the wind on our skin.",1,313,182,
+claude-opus-4-6,sequential,adaptive,high,s0_038,6,25,A,25A,s0_038,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.** A kitten acts like a cat and looks like a cat, but it isn't technically a cat yet—it's a kitten, a young/baby cat.",1,383,88,
+claude-opus-4-6,sequential,adaptive,high,s0_039,1,30,B,30B,s0_039,There are six eggs in a basket. Five people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the last egg still in it.**
+
+This is a classic riddle where the trick is that ""taking an egg"" doesn't require removing it from the basket—the fifth person simply took the entire basket containing the remaining egg.",1,72,91,
+claude-opus-4-6,sequential,adaptive,high,s0_039,2,21,A,21A,s0_039,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be beheaded. What can he say to save himself?","**""You will hang me.""**
+
+This creates an unresolvable paradox: if they hang him, then he told the truth and should have been beheaded, but if they behead him, then he lied and should have been hanged—since neither punishment can be applied without contradiction, they must set him free.",1,164,216,
+claude-opus-4-6,sequential,adaptive,high,s0_039,3,18,A,18A,s0_039,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?","**A stapler.**
+
+The ""pointed fangs"" are the staple's sharp prongs, and it ""physically joins with a single bite"" by crunching down to pierce and bind papers together.",1,282,162,
+claude-opus-4-6,sequential,adaptive,high,s0_039,4,19,B,19B,s0_039,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A bell.**
+
+A bell has a ""mouth"" (its open bottom), ""ears"" (the loops at the top used to hang it), a ""body"" (its main curved structure), and it ""feels the wind"" which can cause it to sway and ring.",1,356,206,
+claude-opus-4-6,sequential,adaptive,high,s0_039,5,29,B,29B,s0_039,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation, making it completely harmless to walk past.",1,470,68,
+claude-opus-4-6,sequential,adaptive,high,s0_039,6,10,A,10A,s0_039,"A horse was tied to a rope 5 meters long, and the horse's food was 15 meters away from the horse. How did the horse reach the food?","**The rope wasn't tied to anything else.**
+
+The riddle only says the horse was tied to a rope, not that the rope was tied to a fixed object, so the horse could simply walk the 15 meters to its food with the rope trailing behind it.",1,544,117,
+claude-opus-4-6,sequential,adaptive,high,s0_040,1,9,A,9A,s0_040,There are 10 peaches and 7 peaches are taken away. You now have 7 peaches. How is that possible?,"**You are the one who took the 7 peaches.**
+
+The problem says ""7 peaches are taken away"" and then states ""*you* now have 7 peaches"" — because you were the one who took them, so you're left holding the 7 you picked up.",1,75,143,
+claude-opus-4-6,sequential,adaptive,high,s0_040,2,5,A,5A,s0_040,"Three girls share one umbrella on the way to school, but none of them get wet. How is it possible?","**It wasn't raining.**
+
+The problem never states it was raining — we simply assume it must be because an umbrella is mentioned, but they could carry an umbrella without needing to use it.",1,169,69,
+claude-opus-4-6,sequential,adaptive,high,s0_040,3,30,B,30B,s0_040,There are six eggs in a basket. Five people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took their egg while it was still in the basket — they took the basket along with the egg.**
+
+The fifth person simply picked up the basket with the last egg still inside it, so they technically ""took one egg"" but it remained in the basket.",1,247,109,
+claude-opus-4-6,sequential,adaptive,high,s0_040,4,16,B,16B,s0_040,What do you call a fly with wings?,"**A fly.**
+
+A fly with wings is just called ""a fly"" — that's its normal state; the trick is that the question makes you overthink it (the classic reverse version of this riddle is ""a fly *without* wings,"" which would be called ""a walk"").",1,318,192,
+claude-opus-4-6,sequential,adaptive,high,s0_040,5,15,B,15B,s0_040,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She's reading it.**
+
+The answer is already stated in the question itself — the trick is that it makes you overthink and search for a hidden answer, when the question literally tells you she is reading it.",1,410,228,
+claude-opus-4-6,sequential,adaptive,high,s0_040,6,11,A,11A,s0_040,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+He was technically ""under water"" — just not submerged in it — so he fulfilled the literal wording of the challenge without actually needing to hold his breath.",1,548,96,
+claude-opus-4-6,sequential,adaptive,high,s0_041,1,18,A,18A,s0_041,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, physically joining with a single bite. What am I?","**A stapler.**
+
+The ""pointed fangs"" are the staple's prongs, it ""sits and waits"" on your desk, it ""crunches"" through pages, and it physically joins papers together with a single ""bite.""",1,86,218,
+claude-opus-4-6,sequential,adaptive,high,s0_041,2,23,B,23B,s0_041,What is not full of holes and can still hold water?,"**A sponge.**
+
+This is the classic riddle typically phrased as ""What *is* full of holes but can still hold water?""—a sponge is riddled with tiny holes throughout its structure, yet it absorbs and holds water perfectly well.",1,156,394,
+claude-opus-4-6,sequential,adaptive,high,s0_041,3,25,A,25A,s0_041,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.**
+
+A kitten looks and behaves just like a cat, but it's specifically a young one, so technically it's called a kitten rather than a cat.",1,242,116,
+claude-opus-4-6,sequential,adaptive,high,s0_041,4,22,B,22B,s0_041,"It can be driven, has wheels, and can't be sliced and remain whole. What is it?","**A car.**
+
+A car can literally be driven, has wheels, and unlike something like a pizza (which is meant to be sliced into pieces), a car cannot be sliced and remain whole or functional.",1,309,548,
+claude-opus-4-6,sequential,adaptive,high,s0_041,5,24,A,24A,s0_041,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?","**A doll.**
+
+A doll has hands that cannot hold anything, teeth (some dolls have molded teeth) that cannot bite, cold feet since she's not alive, and eyes that cannot actually see.",1,395,95,
+claude-opus-4-6,sequential,adaptive,high,s0_041,6,26,B,26B,s0_041,"I have branches, fruit, a trunk, and leaves. What am I?","**A tree.**
+
+A tree naturally has all four of those features—branches extending from its trunk, fruit that it bears, a solid trunk, and leaves on its branches.",1,462,121,
+claude-opus-4-6,sequential,adaptive,high,s0_042,1,21,B,21B,s0_042,"If the prisoner tells a lie he'll be hanged, if he tells the truth he'll be freed. What can he say to save himself?","## **""I will be hanged.""**
+
+This creates an unresolvable paradox: if they hang him, the statement was **true**, so he should have been freed; if they free him, the statement was a **lie**, so he should have been hanged — since neither punishment can be applied consistently, they are forced to let him go.",1,74,274,
+claude-opus-4-6,sequential,adaptive,high,s0_042,2,14,B,14B,s0_042,Has keys and can open locks. What am I?,"## **A locksmith**
+
+A locksmith literally possesses keys and uses them (along with their expertise) to open locks, satisfying both parts of the riddle straightforwardly.",1,166,532,
+claude-opus-4-6,sequential,adaptive,high,s0_042,3,4,B,4B,s0_042,A black dog stands in the middle of an intersection in a town painted black at night. All of the street lights are working. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,"## **It was daytime.**
+
+The riddle never actually states the event happens at night — it tricks you into assuming darkness, but during the day the driver could easily see the black dog regardless of broken headlights or the town's color, and street lights can be ""working"" (functional) without being needed.",1,270,303,
+claude-opus-4-6,sequential,adaptive,high,s0_042,4,16,A,16A,s0_042,What do you call a fly without wings?,"## **A walk.**
+
+Since a fly without wings can no longer fly, it can only walk — so you'd call it a ""walk"" instead of a ""fly.""",1,351,84,
+claude-opus-4-6,sequential,adaptive,high,s0_042,5,26,A,26A,s0_042,"I have branches, but no fruit, trunk, or leaves. What am I?","## **A bank.**
+
+A bank has multiple ""branches"" (locations), but since it's not a tree, it has no fruit, trunk, or leaves.",1,410,68,
+claude-opus-4-6,sequential,adaptive,high,s0_042,6,17,A,17A,s0_042,I'm a number. Add me to myself and multiply by 4. You will have me once more. How is that possible?,"## **Zero (0)**
+
+Adding zero to itself gives zero, and multiplying by 4 still gives zero — no matter what operations you perform on zero, the result is always zero, so ""you will have me once more.""",1,477,156,
+claude-opus-4-6,sequential,adaptive,high,s0_043,1,22,A,22A,s0_043,"It can be driven, but has no wheels, and can also be sliced and remain whole. What is it?","**A golf ball.**
+
+In golf, a ball can be ""driven"" off the tee and ""sliced"" (hit with a curving trajectory), yet it has no wheels and remains perfectly whole throughout.",1,68,167,
+claude-opus-4-6,sequential,adaptive,high,s0_043,2,15,B,15B,s0_043,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","**She is reading it.**
+
+The answer is already stated in the question itself — she's simply using the book by reading it, which is a test of whether you overthink what is plainly stated.",1,144,301,
+claude-opus-4-6,sequential,adaptive,high,s0_043,3,24,A,24A,s0_043,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?","**A doll.**
+
+A doll has hands that cannot hold, teeth that cannot bite, feet that are cold (not alive), and eyes that cannot see — she resembles a person in appearance but has none of the functions of a living being.",1,228,190,
+claude-opus-4-6,sequential,adaptive,high,s0_043,4,29,B,29B,s0_043,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation (lions cannot survive that long without food — actually, let me reconsider: the classic riddle's answer is that a lion that hasn't eaten in three months would be dead, but even with three days, the intended answer is the third door), making it the safest choice compared to nothingness or an assassin.",1,336,126,
+claude-opus-4-6,sequential,adaptive,high,s0_043,5,4,B,4B,s0_043,A black dog stands in the middle of an intersection in a town painted black at night. All of the street lights are working. A car with two broken headlights drives towards the dog but turns in time to avoid hitting him. How could the driver have seen the dog in time?,"**It was daytime.**
+
+The riddle never says the driver was driving at night — the phrase ""at night"" describes when the town was painted black, not the current time of the scene, so daylight made the dog perfectly visible.",1,490,638,
+claude-opus-4-6,sequential,adaptive,high,s0_043,6,8,A,8A,s0_043,How many bananas can you eat if your stomach is empty?,"**One.**
+
+After eating the first banana, your stomach is no longer empty, so you can only eat one banana on an *empty* stomach — every banana after that is eaten on a non-empty stomach.",1,559,86,
+claude-opus-4-6,sequential,adaptive,high,s0_044,1,13,B,13B,s0_044,"Feed me I live, give me water I thrive. What am I?","## A Plant
+
+A plant lives when you feed it (with nutrients/soil) and thrives when you give it water, making it the perfect match for both clues in the riddle.",1,60,396,
+claude-opus-4-6,sequential,adaptive,high,s0_044,2,5,A,5A,s0_044,"Three girls share one umbrella on the way to school, but none of them get wet. How is it possible?","## It's Not Raining
+
+The simplest explanation is that there's no rain — the riddle tricks you into assuming it's raining just because an umbrella is mentioned.",1,130,67,
+claude-opus-4-6,sequential,adaptive,high,s0_044,3,27,B,27B,s0_044,It belongs to you but no one else uses it. What is it?,"## Your Name
+
+Your name belongs to you, yet it is primarily used by other people when they address or refer to you — you rarely use it yourself.",1,189,320,
+claude-opus-4-6,sequential,adaptive,high,s0_044,4,15,B,15B,s0_044,"A girl has a book, and she is reading it, holding it, and it is open. How is she using it?","## She's Reading It
+
+The answer is already stated in the riddle itself — it's designed to make you overthink when it plainly tells you she is reading the book.",1,253,282,
+claude-opus-4-6,sequential,adaptive,high,s0_044,5,10,A,10A,s0_044,"A horse was tied to a rope 5 meters long, and the horse's food was 15 meters away from the horse. How did the horse reach the food?","## The Rope Wasn't Tied to Anything
+
+The riddle says the horse was tied to a rope, but it never says the other end of the rope was tied to a fixed object, so the horse could walk freely to its food.",1,332,146,
+claude-opus-4-6,sequential,adaptive,high,s0_044,6,28,A,28A,s0_044,"I have cities, but no houses; forests, but no trees; and water, but no fish. What am I?","## A Map
+
+A map has cities, forests, and water labeled or depicted on it, but none of the actual physical things (houses, trees, fish) that would exist in those real places.",1,415,63,
+claude-opus-4-6,sequential,adaptive,high,s0_045,1,25,A,25A,s0_045,"I act like a cat, I look like a cat, yet I am not a cat. What am I?","**A kitten.**
+
+A kitten acts and looks like a cat, but it is not yet an adult cat—it's still a kitten.",1,67,105,
+claude-opus-4-6,sequential,adaptive,high,s0_045,2,23,B,23B,s0_045,What is not full of holes and can still hold water?,"**A sponge.**
+
+This is the classic riddle (typically phrased as ""full of holes but still holds water"")—a sponge is riddled with holes throughout its structure, yet it absorbs and holds water within those very holes.",1,117,302,
+claude-opus-4-6,sequential,adaptive,high,s0_045,3,13,A,13A,s0_045,"Feed me I live, give me water I die. What am I?","**Fire.**
+
+Fire grows and thrives when you ""feed"" it with fuel, but it is extinguished when you pour water on it.",1,192,78,
+claude-opus-4-6,sequential,adaptive,high,s0_045,4,12,B,12B,s0_045,A guy bet his neighbor 50 bucks that his dog could jump higher than the height of a neighbor's fence. The neighbor took the bet and lost. How is that possible?,"**Fences can't jump.**
+
+The bet was that the dog could jump higher than the fence could, and since a fence can't jump at all, even the smallest jump by the dog wins the bet.",1,267,116,
+claude-opus-4-6,sequential,adaptive,high,s0_045,5,27,B,27B,s0_045,It belongs to you but no one else uses it. What is it?,"**Your name.**
+
+It belongs to you, yet it is primarily used by other people when they address or refer to you — you rarely use it yourself.",1,332,291,
+claude-opus-4-6,sequential,adaptive,high,s0_045,6,6,A,6A,s0_045,"Which of the following is the largest? Circle, square, or triangle?","**Triangle.**
+
+Since no dimensions are given for any of the shapes, the question is really about the words themselves — and ""triangle"" is the largest word, having the most letters (8) compared to ""circle"" (6) and ""square"" (6).",1,385,216,
+claude-opus-4-6,sequential,adaptive,high,s0_046,1,23,A,23A,s0_046,What is full of holes and can still hold water?,"**A sponge.**
+
+A sponge is riddled with holes throughout its structure, yet its absorbent material traps and holds water within those very holes.",1,55,60,
+claude-opus-4-6,sequential,adaptive,high,s0_046,2,7,B,7B,s0_046,"If the end of the year is December 31st, when is the end of Christmas?","**The letter ""S"".**
+
+The riddle plays on the word ""end"" literally, meaning the last letter of the word ""Christmas,"" which is the letter **S**.",1,116,91,
+claude-opus-4-6,sequential,adaptive,high,s0_046,3,8,A,8A,s0_046,How many bananas can you eat if your stomach is empty?,"**One.**
+
+After eating the first banana, your stomach is no longer empty, so you can only eat one banana on an empty stomach.",1,172,75,
+claude-opus-4-6,sequential,adaptive,high,s0_046,4,19,B,19B,s0_046,"I speak with a mouth and hear with ears. I have a body, and I feel the wind. What am I?","**A person (human being).**
+
+While the riddle seems like it should have a trick answer, it straightforwardly describes a human — we speak with our mouths, hear with our ears, have a body, and feel the wind against our skin.",1,232,713,
+claude-opus-4-6,sequential,adaptive,high,s0_046,5,24,A,24A,s0_046,"Hands she has but does not hold, teeth she has but does not bite, feet she has but they are cold, eyes she has but without sight. Who is she?","**A doll.**
+
+A doll has all these human features — hands, teeth, feet, and eyes — but since she is an inanimate object, none of them actually function the way they do on a living person.",1,329,116,
+claude-opus-4-6,sequential,adaptive,high,s0_046,6,29,B,29B,s0_046,"You're trapped in a room with three doors. The first leads to a room of nothing, the second to an assassin waiting to kill you, and the third to a lion that hasn't eaten in three days. Which door is safest?","**The third door.**
+
+A lion that hasn't eaten in three days would be dead from starvation (lions can typically survive only a few days without food), so it poses no threat to you.",1,433,78,
+claude-opus-4-6,sequential,adaptive,high,s0_047,1,10,B,10B,s0_047,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked over to the food.**
+
+Since the rope was 5 meters long and the food was only 3 meters away, the horse had more than enough slack to reach it — the puzzle is designed to trick you into overthinking a problem that has a straightforward answer.",1,84,304,
+claude-opus-4-6,sequential,adaptive,high,s0_047,2,3,A,3A,s0_047,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only 3 people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so ""two fathers and two sons"" actually refers to just three people, meaning one fish each works out perfectly.",1,199,119,
+claude-opus-4-6,sequential,adaptive,high,s0_047,3,6,B,6B,s0_047,"Which of the following is the largest? A tiny triangle, a medium circle, or a large rectangle?","**The large rectangle.**
+
+The adjectives directly describe their sizes — ""tiny,"" ""medium,"" and ""large"" — so regardless of shape, the large rectangle is the largest of the three.",1,288,75,
+claude-opus-4-6,sequential,adaptive,high,s0_047,4,19,A,19A,s0_047,"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?","**An echo.**
+
+An echo ""speaks"" by repeating sounds without a mouth, ""hears"" without ears by reflecting sound waves, has no physical body, and comes alive as sound travels through the air (wind).",1,360,157,
+claude-opus-4-6,sequential,adaptive,high,s0_047,5,30,A,30A,s0_047,There are six eggs in a basket. Six people each take one egg. How is it possible that one egg is still in the basket?,"**The sixth person took the basket with the egg still in it.**
+
+Five people each took an egg out of the basket, but the sixth person took the entire basket with the last egg still inside it, so one egg remains ""in the basket.""",1,440,101,
+claude-opus-4-6,sequential,adaptive,high,s0_047,6,7,B,7B,s0_047,"If the end of the year is December 31st, when is the end of Christmas?","**The letter ""s.""**
+
+The riddle is a play on words — it's not asking about the date but about the literal *end* of the word ""Christmas,"" which is the letter ""s.""",1,516,88,
+claude-opus-4-6,sequential,adaptive,high,s0_048,1,20,A,20A,s0_048,"Railroad Crossing, look out for the cars. Can you spell that without any R's?","**T-H-A-T**
+
+The riddle asks you to spell the word ""that,"" which contains no R's at all.",1,63,101,
+claude-opus-4-6,sequential,adaptive,high,s0_048,2,5,B,5B,s0_048,"Three girls share three umbrellas on a rainy walk to school, and no girls got wet. How is it possible?","**It wasn't raining.**
+
+The phrase ""a rainy walk"" is meant to be misleading, but the rain had either stopped or hadn't started yet, so no one got wet despite carrying umbrellas.",1,125,408,
+claude-opus-4-6,sequential,adaptive,high,s0_048,3,26,A,26A,s0_048,"I have branches, but no fruit, trunk, or leaves. What am I?","**A bank.**
+
+A bank has multiple ""branches"" (locations), but none of the physical features of a tree like fruit, a trunk, or leaves.",1,194,67,
+claude-opus-4-6,sequential,adaptive,high,s0_048,4,3,B,3B,s0_048,"Two fathers and two sons went fishing one day. They were there the whole day and only caught 4 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?","**There were only three people: a grandfather, his son, and his grandson.**
+
+The son is both a father (to the grandson) and a son (to the grandfather), so ""two fathers and two sons"" actually refers to just three people, making four fish more than enough for one each.",1,281,680,
+claude-opus-4-6,sequential,adaptive,high,s0_048,5,6,A,6A,s0_048,"Which of the following is the largest? Circle, square, or triangle?","**Triangle.**
+
+Since no sizes are given for the shapes, the question is really about the words themselves, and ""triangle"" is the largest word with eight letters compared to six each for ""circle"" and ""square.""",1,364,189,
+claude-opus-4-6,sequential,adaptive,high,s0_048,6,18,B,18B,s0_048,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+The riddle uses dramatic language, but the ""pointed fangs"" are the staple, the ""bite"" is the stapling action, and the ""venom"" is the staple it injects into paper — its ""victims.""",1,459,78,
+claude-opus-4-6,sequential,adaptive,high,s0_049,1,18,B,18B,s0_049,"With pointed fangs, I sit and wait. With piercing force, I crunch out fate. Grabbing victims, proclaiming might, injecting venom with a single bite. What am I?","**A stapler.**
+
+The riddle uses imagery like ""pointed fangs,"" ""piercing force,"" and ""injecting venom with a single bite"" to make you think of a snake or spider, but each clue cleverly describes a stapler — it sits on your desk waiting, its metal ""fangs"" (staples) pierce and crunch through paper, and it ""bites"" documents together in one press.",1,88,245,
+claude-opus-4-6,sequential,adaptive,high,s0_049,2,1,B,1B,s0_049,"A cowboy rode into town on Sunday, he stayed one night and rode out on Monday. How is this possible?","**His horse's name is Sunday.**
+
+The riddle is designed to make you overthink the days of the week, but the key word ""on"" has a double meaning — he literally rode *on* his horse named Sunday, stayed overnight, and rode out the next day (Monday, the day of the week).",1,208,592,
+claude-opus-4-6,sequential,adaptive,high,s0_049,3,11,A,11A,s0_049,"A magician was boasting one day about how long he could hold his breath underwater. His record was 6 minutes. A kid who was listening said, ""I can be underwater for 10 minutes using no type of equipment or air pockets!"" The magician told the kid if he could do that, he'd give him $10,000. The kid did it and won the money. How is that possible?","**The kid held a glass of water over his head for 10 minutes.**
+
+The trick is in the wording — the kid said he could be ""underwater"" for 10 minutes, and by simply holding a cup or glass of water above his head, he was technically *under water* without needing to hold his breath at all.",1,368,107,
+claude-opus-4-6,sequential,adaptive,high,s0_049,4,16,A,16A,s0_049,What do you call a fly without wings?,"**A walk.**
+
+If you remove a fly's wings, it can no longer fly — it can only walk — so the joke plays on the fact that a ""fly"" is named for what it does, and without wings, all it can do is walk.",1,455,76,
+claude-opus-4-6,sequential,adaptive,high,s0_049,5,13,A,13A,s0_049,"Feed me I live, give me water I die. What am I?","**A fire.**
+
+Fire grows and thrives when you ""feed"" it fuel, but water extinguishes it — so giving it water causes it to ""die.""",1,530,56,
+claude-opus-4-6,sequential,adaptive,high,s0_049,6,10,B,10B,s0_049,"A horse was tied to a post using a 5-meter-long rope, and the horse's food was 3 meters away from the horse. How did the horse reach the food?","**The horse simply walked over to it — the rope was 5 meters long and the food was only 3 meters away.**
+
+The riddle is designed to make you assume there's a constraint preventing the horse from reaching the food, but since 3 meters is well within the 5-meter length of the rope, the horse can easily reach it with room to spare.",1,611,321,
